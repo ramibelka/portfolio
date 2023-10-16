@@ -131,6 +131,11 @@
 
     .i-title-item {
       justify-content: center;
+      height: 50px;
+      font-size: 27px;
+      overflow: hidden; 
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
     
   }
