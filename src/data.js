@@ -14,7 +14,7 @@ export const products = [
   {
     id: 2,
     img: img2,
-    link: "agency-dz.netlify.app",
+    link: "https://agency-dz.netlify.app/",
   },
   {
     id: 3,

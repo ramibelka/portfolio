@@ -7,7 +7,7 @@ const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Create & inspire.</h1>
+        <h1 className="pl-title">My projects</h1>
         <p className="pl-desc">
           Each project is a unique piece of development 🧩 Click on the picture
           to go to the website (Live Demo).
