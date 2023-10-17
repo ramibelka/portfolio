@@ -45,19 +45,31 @@
 
 .p-desc {
   flex: 1;
-  margin: 10px;
+  margin: 60px; /**************/
+}
+
+h1 {
+  margin-bottom: 80px;
 }
 /*********************/
 
 @media screen and (max-width: 480px) {
   .p {
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     flex: auto;
     margin: 0;
   }
 
   .container {
     flex-direction: column;
+  }
+
+  .p-desc {
+    margin: 5px; /**************/
+  }
+
+  h1 {
+    margin: 10px;
   }
 }
