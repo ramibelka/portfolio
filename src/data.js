@@ -1,15 +1,15 @@
 import img1 from "./img/ui-venti.jpeg";
 import img2 from "./img/agency.jpeg";
 import img3 from "./img/car-rent.jpeg";
-import img4 from "./img/gym.jpg";
+import img4 from "./img/portfolio.jpeg";
 
 export const products = [
   {
-    id: 1,
-    title: "E-commerce",
-    desc: "A dynamic e-commerce platform specializing in second-hand clothing, promoting sustainable fashion choices while providing a social experience.",
-    img: img1,
-    link: "/",
+    id: 3,
+    title: "Car rental",
+    desc: "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
+    img: img3,
+    link: "https://car-rental-dz.netlify.app/",
   },
   {
     id: 2,
@@ -19,16 +19,16 @@ export const products = [
     link: "https://agency-dz.netlify.app/",
   },
   {
-    id: 3,
-    title: "Car rental",
-    desc: "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
-    img: img3,
+    id: 1,
+    title: "E-commerce",
+    desc: "A dynamic e-commerce platform specializing in second-hand clothing, promoting sustainable fashion choices while providing a social experience.",
+    img: img1,
     link: "/",
   },
   {
     id: 4,
-    title: "Gym membership",
-    desc: "A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals.",
+    title: "This portfolio",
+    desc: "My React.js portfolio is an interactive online resume showcasing my web development skills and projects.",
     img: img4,
     link: "/",
   },
