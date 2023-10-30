@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import skill from "../../img/skill.jpg";
 import Master from "../../img/master.jpg";
+import CV from "../../assets/cv.pdf";
 
 const About = () => {
   return (
@@ -33,6 +34,9 @@ const About = () => {
               </p>
             </div>
           </div>
+          <a href={CV} download className="i-download-link">
+            Download CV
+          </a>
         </div>
       </div>
     </div>
