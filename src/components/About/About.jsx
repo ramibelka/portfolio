@@ -17,10 +17,12 @@ const About = () => {
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">A dedicated Full-stack Developer.</p>
         <p className="a-desc">
-          I am a 22 year old developer, born on March 11, 2001, passionate and
-          creative, with a solid technical expertise, a proven ability to solve
-          complex problems. I use ReactJS for frontend developement, and Laravel
-          for the backend.
+          I am a 22-year-old developer, born on March 11, 2001. I am passionate
+          and creative, with solid technical expertise and proven ability to
+          solve complex problems, as well as my team-oriented nature. My
+          frontend skills include HTML, CSS, JavaScript, React, Tailwind, and
+          some knowledge in Flutter. For the backend, I primarily use PHP
+          Laravel and MySQL, but I am also skilled in Java (JEE) and Python.
         </p>
         <div className="a-award">
           <img src={Master} alt="" className="a-award-img" />

@@ -22,6 +22,8 @@ const ProductList = () => {
               desc={item.desc}
               img={item.img}
               link={item.link}
+              gitLink={item.gitLink}
+              tech={item.tech}
             />
           );
         })}

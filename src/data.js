@@ -10,6 +10,8 @@ export const products = [
     desc: "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
     img: img3,
     link: "https://car-rental-dz.netlify.app/",
+    gitLink: "https://github.com/ramibelka/car-rental",
+    tech: "Tailwind",
   },
   {
     id: 2,
@@ -17,6 +19,8 @@ export const products = [
     desc: "A sleek and professional website for a digital agency, showcasing their services, portfolio, and expertise in a modern and engaging format.",
     img: img2,
     link: "https://agency-dz.netlify.app/",
+    gitLink: "https://github.com/ramibelka/agency-app",
+    tech: "Styled Components",
   },
   {
     id: 1,
@@ -24,6 +28,8 @@ export const products = [
     desc: "A dynamic e-commerce platform specializing in second-hand clothing, promoting sustainable fashion choices while providing a social experience.",
     img: img1,
     link: "/",
+    gitLink: "https://github.com/ramibelka/venti_frontend",
+    tech: "Vanilla css",
   },
   {
     id: 4,
@@ -31,5 +37,7 @@ export const products = [
     desc: "My React.js portfolio is an interactive online resume showcasing my web development skills and projects.",
     img: img4,
     link: "/",
+    gitLink: "https://github.com/ramibelka/portfolio",
+    tech: "Vanilla css",
   },
 ];
