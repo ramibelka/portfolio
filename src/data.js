@@ -25,7 +25,7 @@ export const products = [
   {
     id: 1,
     title: "E-commerce",
-    desc: "A dynamic e-commerce platform specializing in second-hand clothing, promoting sustainable fashion choices while providing a social experience.",
+    desc: "A dynamic e-commerce platform specializing in second-hand clothing, promoting sustainable fashion choices while providing a social experience. (NOT HOSTED YET IT WILL BE SOON).",
     img: img1,
     link: "/",
     gitLink: "https://github.com/ramibelka/venti_frontend",
