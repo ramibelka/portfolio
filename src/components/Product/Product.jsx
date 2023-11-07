@@ -10,9 +10,13 @@ const Product = ({ title, desc, img, link, gitLink, tech }) => {
           <div className="p-circle"></div>
           <div className="p-circle"></div>
         </div>
-        <a href={link} target="_blank" rel="noreferrer">
+        {link ? (
+          <a href={link} target="_blank" rel="noreferrer">
+            <img src={img} alt="" className="p-img" loading="lazy" />
+          </a>
+        ) : (
           <img src={img} alt="" className="p-img" loading="lazy" />
-        </a>
+        )}
       </div>
       <div className="p-desc">
         <h1>{title}</h1>
@@ -35,7 +39,7 @@ const Product = ({ title, desc, img, link, gitLink, tech }) => {
               </svg>
             </a>
           ) : (
-            <a>Not yet</a>
+            <p>Not yet</p>
           )}
           <a href={gitLink} target="_blank" rel="noreferrer">
             Github

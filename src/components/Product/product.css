@@ -89,6 +89,12 @@ h1 {
   margin-bottom: 10px;
 }
 
+.p-desc p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 480px) {
   .p {
     width: 100%;
