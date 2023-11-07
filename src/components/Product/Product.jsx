@@ -2,7 +2,6 @@ import React from "react";
 import "./product.css";
 
 const Product = ({ title, desc, img, link, gitLink, tech }) => {
-  console.log(gitLink);
   return (
     <div className="container">
       <div className="p">
@@ -23,17 +22,21 @@ const Product = ({ title, desc, img, link, gitLink, tech }) => {
             <h4>React</h4>
             <h4>{tech}</h4>
           </div>
-          <a href={link} target="_blank" rel="noreferrer">
-            Live Demo
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
-            </svg>
-          </a>
+          {link ? (
+            <a href={link} target="_blank" rel="noreferrer">
+              Live Demo
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
+              </svg>
+            </a>
+          ) : (
+            <a>Not yet</a>
+          )}
           <a href={gitLink} target="_blank" rel="noreferrer">
             Github
             <svg
