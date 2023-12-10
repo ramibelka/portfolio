@@ -7,7 +7,7 @@ export const products = [
   {
     id: 3,
     title: "Car rental",
-    desc: "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
+    desc: "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for veiwing, searching, and reserving cars.",
     img: img3,
     link: "https://car-rental-dz.netlify.app/",
     gitLink: "https://github.com/ramibelka/car-rental",
@@ -16,7 +16,7 @@ export const products = [
   {
     id: 2,
     title: "Agency website",
-    desc: "A sleek and professional website for a digital agency, showcasing their services, portfolio, and expertise in a modern and engaging format.",
+    desc: "A sleek and professional landing page for a digital agency, showcasing their services, portfolio, and expertise in a modern and engaging format.",
     img: img2,
     link: "https://agency-dz.netlify.app/",
     gitLink: "https://github.com/ramibelka/agency-app",
@@ -25,8 +25,9 @@ export const products = [
   {
     id: 1,
     title: "E-commerce",
-    desc: "A dynamic e-commerce platform specializing in second-hand clothing, promoting sustainable fashion choices while providing a social experience. (NOT HOSTED YET IT WILL BE SOON).",
+    desc: "A dynamic e-commerce platform specializing in second-hand clothing, promoting sustainable fashion choices while providing a social experience.",
     img: img1,
+    link: "https://venti-algeria.netlify.app/",
     gitLink: "https://github.com/ramibelka/venti_frontend",
     tech: "Vanilla css",
   },

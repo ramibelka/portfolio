@@ -1,0 +1,75 @@
+/* TechStack.css */
+.tech-stack-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 10px; /* Gap between elements */
+  justify-content: center;
+  place-items: center;
+  margin-bottom: 50px;
+}
+
+.tech-icon {
+  text-align: center;
+  padding: 10px;
+  width: 100px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background-color: #ffffff; /* Background color */
+}
+
+.tech-icon:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tech-icon p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Icon size */
+.tech-icon svg {
+  width: 30px;
+  height: 30px;
+  color: #3498db; /* Icon color */
+}
+
+/* Hover effect on icon color */
+.tech-icon:hover svg {
+  color: #e74c3c;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.divider {
+  margin: 20px 0; /* Adjust the margin as needed */
+  align-self: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ddd; /* Divider color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .tech-icon {
+    padding: 8px;
+  }
+
+  .tech-stack-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

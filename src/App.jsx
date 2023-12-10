@@ -5,6 +5,7 @@ import Intro from "./components/Intro/Intro";
 import ProductList from "./components/ProductList/ProductList";
 import Toggle from "./components/Toggle/Toggle";
 import { ThemeContext } from "./contexte";
+import Skills from "./components/Skills/Skills";
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -18,6 +19,7 @@ const App = () => {
     >
       <Toggle />
       <Intro />
+      <Skills />
       <About />
       <ProductList />
       <Contact />
