@@ -1,7 +1,8 @@
 import img1 from "./img/ui-venti.jpeg";
 import img2 from "./img/agency.jpeg";
 import img3 from "./img/car-rent.jpeg";
-import img4 from "./img/portfolio.jpeg";
+import img4 from "./img/VIP.png";
+import img5 from "./img/portfolio.jpeg";
 
 export const products = [
   {
@@ -33,9 +34,18 @@ export const products = [
   },
   {
     id: 4,
+    title: "VIP Choice",
+    desc: "Sleek website for VIP Choice, highlighting company's expertise in luxury travel services. Using Framer Motion, with subtle animations to create an engaging and premium user experience.",
+    img: img4,
+    link: "https://executive-hospitality-company.vercel.app/",
+    gitLink: "https://github.com/ramibelka/executive-hospitality-company",
+    tech: "TailwindCSS, Framer Motion",
+  },
+  {
+    id: 5,
     title: "This portfolio",
     desc: "My React.js portfolio is an interactive online resume showcasing my web development skills and projects.",
-    img: img4,
+    img: img5,
     link: "/",
     gitLink: "https://github.com/ramibelka/portfolio",
     tech: "Vanilla css",
