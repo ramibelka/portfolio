@@ -41,13 +41,13 @@ export const products = [
     gitLink: "https://github.com/ramibelka/executive-hospitality-company",
     tech: "TailwindCSS, Framer Motion",
   },
-  {
-    id: 5,
-    title: "This portfolio",
-    desc: "My React.js portfolio is an interactive online resume showcasing my web development skills and projects.",
-    img: img5,
-    link: "/",
-    gitLink: "https://github.com/ramibelka/portfolio",
-    tech: "Vanilla css",
-  },
+  // {
+  //   id: 5,
+  //   title: "This portfolio",
+  //   desc: "My React.js portfolio is an interactive online resume showcasing my web development skills and projects.",
+  //   img: img5,
+  //   link: "/",
+  //   gitLink: "https://github.com/ramibelka/portfolio",
+  //   tech: "Vanilla css",
+  // },
 ];
