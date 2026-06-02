@@ -1,28 +1,29 @@
-import { useContext } from "react";
-import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
-import Intro from "./components/Intro/Intro";
-import ProductList from "./components/ProductList/ProductList";
-import Toggle from "./components/Toggle/Toggle";
-import { ThemeContext } from "./contexte";
-import Skills from "./components/Skills/Skills";
+import { About } from "./components/About";
+import { Contact } from "./components/Contact";
+import { Cursor } from "./components/Cursor";
+import { Footer } from "./components/Footer";
+import { Hero } from "./components/Hero";
+import { Marquee } from "./components/Marquee";
+import { Projects } from "./components/Projects";
+import { Resume } from "./components/Resume";
+import { ScrollProgress } from "./components/ScrollProgress";
+import { SmoothScroll } from "./components/SmoothScroll";
 
 const App = () => {
-  const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
   return (
-    <div
-      style={{
-        background: darkMode ? "#222" : "white",
-        color: darkMode && "white",
-      }}
-    >
-      <Toggle />
-      <Intro />
-      <Skills />
-      <About />
-      <ProductList />
-      <Contact />
+    <div className="min-h-screen bg-background text-foreground">
+      <SmoothScroll />
+      <Cursor />
+      <ScrollProgress />
+      <main>
+        <Hero />
+        <Marquee />
+        <About />
+        <Projects />
+        <Resume />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
 };

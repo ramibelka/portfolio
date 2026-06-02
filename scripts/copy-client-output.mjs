@@ -3,7 +3,7 @@ import { constants as fsConstants } from "node:fs";
 import path from "node:path";
 
 const rootDir = process.cwd();
-const sourceDir = path.join(rootDir, "dist", "client");
+const sourceDir = path.join(rootDir, "dist");
 const targetDir = path.join(rootDir, "build");
 
 try {
