@@ -25,7 +25,7 @@ export const portfolio = {
   cv: cvPdf,
   tagline:
     "I build responsive, scalable web interfaces with clean code and a sharp eye for user experience.",
-  bio: "I'm a frontend developer with a master's degree in information systems and 2+ years of hands-on experience shipping production-grade React applications. I care deeply about clean architecture, fast load times, and interfaces that feel effortless to use.",
+  bio: "Frontend developer with a master's degree in information systems, focused on building production-grade React applications. Passionate about clean architecture, performance optimization, and crafting intuitive user experiences.",
   bioPoints: [
     "Currently building a multi-tenant cloud ERP SaaS at Cirta Soft - complex data grids, role-based access control, and full RTL/i18n support.",
     "Comfortable owning a feature end-to-end: from Figma handoff and component architecture to performance budgets, accessibility, and release.",
@@ -57,8 +57,7 @@ export const portfolio = {
   projects: [
     {
       name: "Emplorium - CRM Platform",
-      description:
-        "Modern omnichannel customer support CRM with AI agents and unified inbox.",
+      description: "Modern omnichannel customer support CRM with AI agents and unified inbox.",
       longDescription:
         "Contributed to Emplorium, a production CRM platform unifying email, web chat, WhatsApp, and Facebook into a single inbox alongside AI agents. My work covered the deal pipeline (Kanban with drag-and-drop), activity timelines, role-based dashboards, and the notification center. Heavy emphasis on reusable component patterns, accessible keyboard navigation, and reducing re-renders on large data sets through memoization and virtualization.",
       tech: ["React", "Redux Toolkit", "TypeScript", "Tailwind", "REST"],
@@ -79,8 +78,7 @@ export const portfolio = {
     },
     {
       name: "Venti - E-commerce Marketplace",
-      description:
-        "Full peer-to-peer marketplace with product feed, search, and seller dashboard.",
+      description: "Full peer-to-peer marketplace with product feed, search, and seller dashboard.",
       longDescription:
         "A peer-to-peer fashion marketplace where users can list items across Men, Women, Kids, and Sports categories. The storefront features a fast product feed with categories and search, per-listing pages with social interactions (likes, comments, bookmarks), and a seller dashboard for managing listings. Built mobile-first with skeleton loaders, optimistic UI updates, and image lazy-loading to keep Lighthouse scores above 95.",
       tech: ["React", "TypeScript", "Tailwind", "REST", "Node.js"],
@@ -90,8 +88,7 @@ export const portfolio = {
     },
     {
       name: "Executive Hospitality - Landing Page",
-      description:
-        "Luxury chauffeur, security, and concierge brand site with cinematic hero.",
+      description: "Luxury chauffeur, security, and concierge brand site with cinematic hero.",
       longDescription:
         "A pixel-perfect, conversion-focused landing page for a London-based luxury hospitality brand. Cinematic full-bleed hero, scroll-triggered storytelling with Framer Motion, refined editorial typography, and dedicated sections for services, fleet, and contact. Fully responsive, SEO-optimised with meta and structured data, and consistently Lighthouse 95+ across performance, accessibility, best practices, and SEO. One of several landing pages I've shipped for SaaS, agencies, and event campaigns.",
       tech: ["Next.js", "React", "Framer Motion", "Tailwind", "TypeScript"],
